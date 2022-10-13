@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\WebScore\\WebScore\\WebScore.csproj",
+      "projectUniqueName": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\webScoreMvc\\WebScore\\WebScore.csproj",
       "projectName": "WebScore",
-      "projectPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\WebScore\\WebScore\\WebScore.csproj",
+      "projectPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\webScoreMvc\\WebScore\\WebScore.csproj",
       "packagesPath": "C:\\Users\\gabriel.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\WebScore\\WebScore\\obj\\",
+      "outputPath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\webScoreMvc\\WebScore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Componentes\\dotNet\\Components\\Offline Packages",
