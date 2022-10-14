@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using WebScore.Models;
+using WebScore.Models.ViewModels;
 
 namespace WebScore.Controllers
 {
@@ -25,6 +21,14 @@ namespace WebScore.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Score app from c#";
+            ViewData["email"] = "techgolinfo1@gmail.com";
+
             return View();
         }
 
