@@ -55,8 +55,6 @@ C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\ob
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.RazorAssemblyInfo.cache
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.RazorAssemblyInfo.cs
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\staticwebassets\WebScore.StaticWebAssets.Manifest.cache
-C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\staticwebassets\WebScore.StaticWebAssets.xml
-C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebScore.styles.css
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.TagHelpers.input.cache
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.TagHelpers.output.cache
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.RazorCoreGenerate.cache
@@ -195,3 +193,4 @@ C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\ob
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Details.cshtml.g.cs
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Edit.cshtml.g.cs
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Index.cshtml.g.cs
+C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.StaticWebAssets.xml
