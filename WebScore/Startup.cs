@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using WebScore.Data;
+using System.Net;
+using System;
 
 namespace WebScore
 {
@@ -22,9 +24,20 @@ namespace WebScore
         {
             services.AddControllersWithViews();
 
+            services.AddHsts(options =>
+            {
+                options.Preload = true;
+                options.IncludeSubDomains = true;
+                options.MaxAge = TimeSpan.FromDays(60);
+                options.ExcludedHosts.Add("example.com");
+                options.ExcludedHosts.Add("www.example.com");
+            });
+
             services.AddDbContext<WebScoreContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("WebScoreContext"), builder => 
                     builder.MigrationsAssembly("WebScore")));
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
