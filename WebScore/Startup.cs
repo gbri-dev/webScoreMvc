@@ -24,15 +24,6 @@ namespace WebScore
         {
             services.AddControllersWithViews();
 
-            services.AddHsts(options =>
-            {
-                options.Preload = true;
-                options.IncludeSubDomains = true;
-                options.MaxAge = TimeSpan.FromDays(60);
-                options.ExcludedHosts.Add("example.com");
-                options.ExcludedHosts.Add("www.example.com");
-            });
-
             services.AddDbContext<WebScoreContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("WebScoreContext"), builder => 
                     builder.MigrationsAssembly("WebScore")));
@@ -59,6 +50,14 @@ namespace WebScore
             app.UseRouting();
 
             app.UseAuthorization();
+
+            // locale padrao ptBR
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("pt-BR"),
+                SupportedCultures = new[] { new System.Globalization.CultureInfo("pt-BR") },
+                SupportedUICultures = new[] { new System.Globalization.CultureInfo("pt-BR") },
+            });
 
             app.UseEndpoints(endpoints =>
             {
