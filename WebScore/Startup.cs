@@ -5,8 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using WebScore.Data;
-using System.Net;
-using System;
 
 namespace WebScore
 {
