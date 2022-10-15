@@ -14,6 +14,7 @@ namespace WebScore
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseIIS();
                     webBuilder.UseStartup<Startup>();
                 });
     }
