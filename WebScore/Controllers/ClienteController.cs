@@ -20,17 +20,18 @@ namespace WebScore.Controllers
         
         public IActionResult Save()
         {
-           
-            return View("Listar");
-        }
-        
-        public IActionResult Listar()
-        {
             string nome = HttpContext.Request.Form["txtNome"].ToString();
             string email = HttpContext.Request.Form["txtEmail"].ToString();
 
             ViewBag.Name = nome;
             ViewBag.Email = email;
+
+            return View("Listar");
+        }
+        
+        public IActionResult Listar()
+        {
+      
             return View();
         }
     }
