@@ -357,3 +357,7 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\o
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Cadastro.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Insert.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Listar.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Index.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\_Layout.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Layout2.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Newletter.cshtml.g.cs

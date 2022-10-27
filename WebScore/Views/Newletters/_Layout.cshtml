@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F0F0;
+}
+
+
+
+.logo {
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #184a79;
+    margin-right: 48px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.logo a {
+    color: #100f3a;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #8482DB;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    background-color: #100F3A;
+    display: flex;
+}
+
+@@media (max-width: 720px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav {
+        width: 100%;
+    }
+}
+
+header nav ul :hover {
+    background-color: #8482DB;
+}
+
+header nav ul li {
+    border-right: 1px solid #fff;
+}
+
+header ul li a {
+    text-decoration: none;
+    display: block;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 59px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 24px 24px;
+    margin-left: 5%;
+    border-radius: 14px;
+}
+
+main {
+    width: 30%;
+    height: 100%;
+    background-color: #7ab3a96c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+@@media (max-width: 860px) {
+    main {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+}
+
+
+main picture {
+    width: 190px;
+    margin: 15px 0;
+    border-radius: 55px;
+    background-color: #100F3A;
+}
+
+main picture :hover {
+    float: right;
+}
+
+
+picture img {
+    filter: sepia(80%);
+}
+
+picture img:hover {
+    filter: none;
+}
+
+section {
+    width: 65%;
+    float: left;
+    font-size: 1.6rem;
+    padding: 64px 44px;
+}
+
+section h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #3da08a;
+}
+
+section p {
+    font-size: 1.4rem;
+}
+
+section h4 {
+    /* text-decoration: underline; */
+    font-style: oblique;
+}
+
+@@media (max-width: 860px) {
+    section {
+        width: 100%;
+    }
+}
+
+section h3 {
+    color: gray;
+}
+
+.personalized-link a {
+    text-decoration: none;
+    color: #100f3a;
+}
+
+.personalized-link a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-tipo">
+            <div class="logo">
+                <a href=".">
+                    Tech
+                    <span>.</span>
+                    GO
+                </a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="active" style="background-color: #8482DB;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Experience</a></li>
+                <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Newletters" asp-action="Newletter">Layout2</a>
+                </li>
+                <li><a href="https://github.com/gbri-dev">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <p>Desenvolvido por Gabriel CS.</p>
+    </footer>
+
+</body>
+</html>

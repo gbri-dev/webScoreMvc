@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="front-end-ebac">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="./assets/css/modulo7.css">-->
+    <link rel="stylesheet" href="assets/css/heranca.css">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+header p {
+  color: #4682B4;
+  text-decoration: none;
+}
+
+header p :hover {
+  text-decoration-line: underline;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav ul li {
+  border-bottom: 1px solid #363f5f;
+  text-align: center;
+  opacity: 0.7;
+}
+
+ul :hover {
+  background: #bdbbbb;
+  opacity: 1;
+}
+
+a {
+  color: #336;
+  text-decoration: none;
+}
+
+/*
+[type="text"],
+[type="email"],
+textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form div {
+  border: 1px solid #999;
+}
+
+.quiz {
+  margin-bottom: 20px;
+  border: 1px solid #999;
+}
+*/
+
+form div {
+  background: #fff;
+  border-bottom: 1px solid #33f;
+  /*
+  margin: 10px 10px 20px 10px; top left bottom right
+  padding: 10px 20px; o primeiro valor é: top e bottom  o segundo valor é: left right
+  */
+  margin: 1rem 2rem;
+  padding: 2rem;
+}
+
+[type="text"],
+[type="email"],
+textarea,
+label {
+  display: block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #66f;
+}
+
+input {
+  padding: 1rem;
+}
+
+main {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+form {
+  padding: 20px;
+}
+
+form div {
+  padding-top: 13px;
+}
+
+/* Página sobre */
+
+
+/* Clear floats after the columns*/
+section::after {
+  background: #ccc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of
+each other instead of next to each other, on small screens */
+@@media (max-width: 600px) {
+
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+form div {
+  position: relative;
+  margin-top: -10px;
+}
+/*cores*/
+
+body {
+    background: url('../../img/images.png') center top repeat #000000;
+}
+
+header,
+footer {
+    background-color: #034589
+}
+
+nav {
+    width: 100%;
+}
+
+@@media (max-width: 600px) {
+
+    nav,
+    article,
+    section {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+}
+
+img {
+    border-radius: 35px;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+div.contato-title {
+    font-family: sans-serif;
+    background-color: white;
+    padding: 8px;
+    height: 210px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Curso Front-end - HTML</h2>
+        <p><a href="ebac">Aprenda do Zero ao Pro</a></p>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+      <main>
+        @RenderBody()
+      </main>
+
+
+
+    <footer>
+        <p>Desenvolvido por Gabriel CS.</p>
+    </footer>
+
+</body>
+
+</html>
