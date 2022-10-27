@@ -24,9 +24,7 @@ namespace WebScore
 
             services.AddDbContext<WebScoreContext>(options =>
                     options.UseMySql(Configuration.GetConnectionString("WebScoreContext"), builder => 
-                    builder.MigrationsAssembly("WebScore")));
-
-
+                    builder.MigrationsAssembly("webscore")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["title"] = "Inserir";
+}
+
+<h2>Novo Cliente</h2>
+
+
+<form asp-controller="Cliente" method="post">
+    <input class="input-group-sm" type="text" name="txtNome" placeholder="Nome" />
+    <input class="input-group-sm" type="text" name="txtEmail" placeholder="Email" />
+    <button class="btn-outline-dark" type="submit" value="Listar" formaction="Save">Salvar</button>
+</form>

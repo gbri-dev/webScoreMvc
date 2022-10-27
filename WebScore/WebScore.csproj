@@ -2,7 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <ApplicationIcon>pontocloud.ico</ApplicationIcon>
+    <ApplicationIcon>wwwroot\pontocloud.ico</ApplicationIcon>
+    <StartupObject>WebScore.Program</StartupObject>
+    <Win32Resource />
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
   <ItemGroup>

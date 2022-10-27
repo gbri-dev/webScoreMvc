@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQFmn5v2NgiOR+Nx14GotC45z3ieCDD+m42/YJ5469r0H3FY+mNjGlgEU+6asSIML/oL3dsTZGkyliXy5pIyZA==",
+  "dgSpecHash": "6iYjDrfFLG5W46GyyjyLd/d2oFDJdoJWSV0RiSrlVOrNjQv0G10usu2iRDxis65s6Xb5d+3o0Oml2L8uvni0/A==",
   "success": true,
-  "projectFilePath": "C:\\temp\\Development\\Fundamentos do C#\\projetos\\aspNetMvc\\webScoreMvc\\WebScore\\WebScore.csproj",
+  "projectFilePath": "C:\\temp\\Development\\CSharpFundamentals\\projetos\\aspNetMvc\\webScoreMvc\\WebScore\\WebScore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
