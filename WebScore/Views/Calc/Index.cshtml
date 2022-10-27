@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["title"] = "Calculadora";
+}
+
+<h2>Calculadora</h2>
+
+
+<form asp-controller="Calc" method="post">
+    <input class="input-group-sm" type="text" name="txtN1" placeholder="Digito 1" />
+    <input class="input-group-sm" type="text" name="txtN2" placeholder="Digito 2" />
+
+    <button class="btn-outline-dark" type="submit" value="+" formaction="Somar">Somar</button>&nbsp;&nbsp;
+    <button class="btn-outline-dark" type="submit" value="-" formaction="Subtrair">Sub</button>&nbsp;&nbsp;
+    <button class="btn-outline-dark" type="submit" value="*" formaction="Multiplicar">Mult</button>&nbsp;&nbsp;
+    <button class="btn-outline-dark" type="submit" value="/" formaction="Dividir">Div</button>&nbsp;&nbsp;
+</form>
+
+<div class="container-md">
+    <h2 class="card-title">@ViewBag.Resultado</h2>
+</div>
