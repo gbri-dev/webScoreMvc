@@ -13,10 +13,12 @@ namespace WebScore.Controllers
         {
             try
             {
+                
                 int n1 = Convert.ToInt16(HttpContext.Request.Form["txtN1"].ToString());
                 int n2 = Convert.ToInt16(HttpContext.Request.Form["txtN2"].ToString());
                 int resultado = (n1 + n2);
                 ViewBag.Resultado = resultado.ToString();
+                ViewBag.Operador = "+";
             }
             catch(Exception e)
             {
@@ -33,6 +35,7 @@ namespace WebScore.Controllers
                 int n2 = Convert.ToInt16(HttpContext.Request.Form["txtN2"].ToString());
                 int resultado = (n1 - n2);
                 ViewBag.Resultado = resultado.ToString();
+                ViewBag.Operador = "-";
             }
             catch (Exception e)
             {
@@ -49,6 +52,7 @@ namespace WebScore.Controllers
                 int n2 = Convert.ToInt16(HttpContext.Request.Form["txtN2"].ToString());
                 int resultado = (n1 * n2);
                 ViewBag.Resultado = resultado.ToString();
+                ViewBag.Operador = "*";
             }
             catch (Exception e)
             {
@@ -65,6 +69,7 @@ namespace WebScore.Controllers
                 int n2 = Convert.ToInt16(HttpContext.Request.Form["txtN2"].ToString());
                 int resultado = (n1 / n2);
                 ViewBag.Resultado = resultado.ToString();
+                ViewBag.Operador = "/";
             }
             catch (Exception e)
             {

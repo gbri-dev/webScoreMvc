@@ -4,17 +4,19 @@
 
 <h2>Calculadora</h2>
 
-
-<form asp-controller="Calc" method="post">
-    <input class="input-group-sm" type="text" name="txtN1" placeholder="Digito 1" />
-    <input class="input-group-sm" type="text" name="txtN2" placeholder="Digito 2" />
-
-    <button class="btn-outline-dark" type="submit" value="+" formaction="Somar">Somar</button>&nbsp;&nbsp;
-    <button class="btn-outline-dark" type="submit" value="-" formaction="Subtrair">Sub</button>&nbsp;&nbsp;
-    <button class="btn-outline-dark" type="submit" value="*" formaction="Multiplicar">Mult</button>&nbsp;&nbsp;
-    <button class="btn-outline-dark" type="submit" value="/" formaction="Dividir">Div</button>&nbsp;&nbsp;
-</form>
+<div class="container-fluid">
+    <form asp-controller="Calc" method="post">
+        <input class="input-group-sm" type="text" name="txtN1" placeholder="Digito 1" /><div class="custom-radio" >&asymp;&nbsp;@ViewBag.Operador</div>
+        <input class="input-group-sm" type="text" name="txtN2" placeholder="Digito 2" />
+        <section class="align-content-lg-start" style="margin: 1rem 0;">
+        <button class="btn-outline-info" type="submit" value="+" asp-action="Somar">Somar</button>&nbsp;&nbsp;
+        <button class="btn-outline-warning" type="submit" value="-" asp-action="Subtrair">Sub</button>&nbsp;&nbsp;
+        <button class="btn-outline-danger" type="submit" value="/" asp-action="Dividir">Div</button>&nbsp;&nbsp;
+        <button class="btn-outline-dark" type="submit" value="*" asp-action="Multiplicar">Mult</button>&nbsp;&nbsp;
+        </section>
+    </form>
+</div>
 
 <div class="container-md">
-    <h2 class="card-title">@ViewBag.Resultado</h2>
+    <h2>@ViewBag.Resultado</h2>
 </div>

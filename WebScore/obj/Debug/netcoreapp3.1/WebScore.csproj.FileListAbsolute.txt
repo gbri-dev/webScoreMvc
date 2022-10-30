@@ -195,6 +195,11 @@ C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\ob
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Index.cshtml.g.cs
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\staticwebassets\WebScore.StaticWebAssets.xml
 C:\temp\Development\Fundamentos do C#\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebScore.styles.css
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.dll
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.Views.dll
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\appsettings.json
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.StaticWebAssets.xml
@@ -202,12 +207,9 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\b
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.deps.json
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.runtimeconfig.json
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.runtimeconfig.dev.json
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.pdb
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.Views.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\WebScore.Views.pdb
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -215,10 +217,8 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\b
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -333,6 +333,11 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\o
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.TagHelpers.input.cache
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.TagHelpers.output.cache
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.RazorCoreGenerate.cache
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Calc\Index.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Cadastro.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Insert.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Listar.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Create.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Delete.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Departments\Details.cshtml.g.cs
@@ -341,7 +346,11 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\o
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Index.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Newletter.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\_Layout.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Layout2.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -353,12 +362,3 @@ C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\o
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.dll
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.pdb
 C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\WebScore.genruntimeconfig.cache
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Cadastro.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Insert.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Listar.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Index.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\_Layout.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Newletters\Newletter.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Calc\Index.cshtml.g.cs
-C:\temp\Development\CSharpFundamentals\projetos\aspNetMvc\webScoreMvc\WebScore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Layout2.cshtml.g.cs
